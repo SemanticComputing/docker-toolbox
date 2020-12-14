@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:buster
 RUN apt-get update
 RUN apt-get install -y bash rsync vim screen tmux default-mysql-client ssh-client
 COPY run /run-uid
